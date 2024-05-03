@@ -48,11 +48,12 @@ This will start the server on the configured IP address and port. The server wil
 Open another terminal or a terminal on a different machine and execute:
 
 ```bash
-python client.py --host <server_ip_address> --port <server_port>
+python client.py <server_ip_address> -p <server_port>
 ```
 
 Replace `<server_ip_address>` with the server's IP address and `<server_port>` with the port number you configured in the server script.
-
+Note that this -p actually needs to be written , not just a placeholder . This is generally provided as argument if port changed in server code
+To quit the chatroom simply write quit in the command line
 The client GUI will launch, prompting you to enter a username. After entering a username, you will be able to send messages and files to other connected users.
 
 ## Features
