@@ -14,8 +14,8 @@ Before you begin, ensure you have met the following requirements:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/chatroom-application.git
-cd chatroom-application
+git clone https://github.com/anuj-l22/PCS2.git
+cd PCS2
 ```
 
 ## Configuration
